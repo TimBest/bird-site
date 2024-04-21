@@ -10,7 +10,7 @@
   <!-- Section Hero -->
   <!-- Box left -->
   <div class="bg-[#7CA9D8]">
-    <div class="size-1/3 pt-44">
+    <div class="size-1/3 pt-44 pl-8 pb-10">
       <enhanced:img
         src="/static/IMG_0911.jpg"
         alt="Tuffed titmouse at a bird feeder"
