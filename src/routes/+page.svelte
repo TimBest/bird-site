@@ -1,3 +1,9 @@
+<script>
+  const paths = Object.keys(
+    import.meta.glob("/static/Birds/*.jpg", { query: { enhanced: true } }),
+  ).map((p) => `${p.substring(7)}?url`);
+</script>
+
 <header class="min-h-screen bg-white">
   <nav class="flex items-center py-8 px-14 justify-between">
     <div class="flex items-center">
@@ -17,29 +23,13 @@
   <div
     class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-8 px-14"
   >
-    <enhanced:img
-      src="/static/Birds/IMG_0729-Enhanced-NR.jpg"
-      class="rounded-md"
-    />
-    <enhanced:img
-      src="/static/Birds/IMG_0755-Enhanced-NR.jpg"
-      class="rounded-md"
-    />
-    <enhanced:img src="/static/Birds/IMG_0757.jpg" class="rounded-md" />
-    <enhanced:img
-      src="/static/Birds/IMG_0758-Enhanced-NR.jpg"
-      class="rounded-md"
-    />
-    <enhanced:img src="/static/Birds/IMG_0829.jpg" class="rounded-md" />
-    <enhanced:img
-      src="/static/Birds/IMG_0866-Enhanced-NR.jpg"
-      class="rounded-md"
-    />
-    <enhanced:img src="/static/Birds/IMG_0880.jpg" class="rounded-md" />
-    <enhanced:img src="/static/Birds/IMG_0884.jpg" class="rounded-md" />
-    <enhanced:img src="/static/Birds/IMG_0887.jpg" class="rounded-md" />
-    <enhanced:img src="/static/Birds/IMG_0922.jpg" class="rounded-md" />
-    <enhanced:img src="/static/Birds/IMG_9754.jpg" class="rounded-md" />
-    <enhanced:img src="/static/Birds/IMG_9757.jpg" class="rounded-md" />
+    {#each paths as img}
+      {#if img !== undefined}
+        <img src={img} />
+        <!-- <enhanced:img src={img} class="rounded-md" alt={img} /> -->
+      {:else}
+        <p>undefined</p>
+      {/if}
+    {/each}
   </div>
 </header>
