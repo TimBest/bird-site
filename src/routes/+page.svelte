@@ -22,7 +22,11 @@
       $ cd static/birds
       $ for file in *; do echo "<enhanced:img src='/static/Birds/${file}'/>"; done
     -->
-    <enhanced:img src="/static/Birds/IMG_0729-Enhanced-NR-2.jpg" />
+    <enhanced:img src="/static/Birds/IMG_1901.jpg" />
+    <enhanced:img src="/static/Birds/IMG_1403.jpg" />
+    <enhanced:img src="/static/Birds/IMG_1075.jpg" />
+    <enhanced:img src="/static/Birds/IMG_1202-Enhanced-NR.jpg" />
+    <enhanced:img src="/static/Birds/IMG_1911.jpg" />
     <enhanced:img src="/static/Birds/IMG_0755-Enhanced-NR-2.jpg" />
     <enhanced:img src="/static/Birds/IMG_0758-Enhanced-NR-2.jpg" />
     <enhanced:img src="/static/Birds/IMG_0829-Enhanced-NR.jpg" />
@@ -31,12 +35,10 @@
     <enhanced:img src="/static/Birds/IMG_0922-2.jpg" />
     <enhanced:img src="/static/Birds/IMG_0980.jpg" />
     <enhanced:img src="/static/Birds/IMG_1017.jpg" />
-    <enhanced:img src="/static/Birds/IMG_1075.jpg" />
     <enhanced:img src="/static/Birds/IMG_1114.jpg" />
     <enhanced:img src="/static/Birds/IMG_1116.jpg" />
     <enhanced:img src="/static/Birds/IMG_1153.jpg" />
     <enhanced:img src="/static/Birds/IMG_1168.jpg" />
-    <enhanced:img src="/static/Birds/IMG_1202-Enhanced-NR.jpg" />
     <enhanced:img src="/static/Birds/IMG_1221.jpg" />
     <enhanced:img src="/static/Birds/IMG_1227-Enhanced-NR.jpg" />
     <enhanced:img src="/static/Birds/IMG_1231.jpg" />
@@ -50,7 +52,6 @@
     <enhanced:img src="/static/Birds/IMG_1314-Enhanced-NR.jpg" />
     <enhanced:img src="/static/Birds/IMG_1319.jpg" />
     <enhanced:img src="/static/Birds/IMG_1380.jpg" />
-    <enhanced:img src="/static/Birds/IMG_1403.jpg" />
     <enhanced:img src="/static/Birds/IMG_1423.jpg" />
     <enhanced:img src="/static/Birds/IMG_1439.jpg" />
     <enhanced:img src="/static/Birds/IMG_1444.jpg" />
@@ -62,5 +63,10 @@
     <enhanced:img src="/static/Birds/IMG_1534.jpg" />
     <enhanced:img src="/static/Birds/IMG_1537.jpg" />
     <enhanced:img src="/static/Birds/IMG_1562.jpg" />
+    <enhanced:img src="/static/Birds/IMG_1928.jpg" />
+    <enhanced:img src="/static/Birds/IMG_1883.jpg" />
+    <enhanced:img src="/static/Birds/IMG_1887.jpg" />
+    <enhanced:img src="/static/Birds/IMG_1894.jpg" />
+    <enhanced:img src="/static/Birds/IMG_0729-Enhanced-NR-2.jpg" />
   </div>
 </header>
